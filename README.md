@@ -2,7 +2,7 @@
   <img src="Images/Healthcare Project Guide Illustration.png" alt="Healthcare Data Insights Banner" width="700" height = "400">
 </p>
 
-# Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
+# HealthLens: Monitoring healthcare performance and trends
 
 ## 📚 Table of Contents
 
