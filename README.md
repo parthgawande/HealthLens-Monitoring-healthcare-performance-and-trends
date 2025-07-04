@@ -42,7 +42,7 @@
 
 
 ## 📌 1. Project Overview <a name="1-project-overview"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;This project focuses on analyzing healthcare data to uncover key insights into patient admissions, medical conditions, treatment outcomes, and hospital performance. By combining Python for data preparation and cleaning with Power BI for interactive dashboards, the project aims to support healthcare administrators in making data-driven operational and clinical decisions.
+&nbsp;&nbsp;&nbsp;&nbsp; This project focuses on analyzing healthcare data to uncover key insights into patient admissions, medical conditions, treatment outcomes, and hospital performance. By combining Python for data preparation and cleaning with Power BI for interactive dashboards, the project aims to support healthcare administrators in making data-driven operational and clinical decisions.
 
 ## 📌 2. Project Description <a name="2-project-description"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;🩺 The Healthcare Data Analysis and Visualization Project involves working with a multi-sheet Excel dataset containing patient details, hospital information, doctor records, and patient visit data. The project workflow starts with merging and cleaning the data using Python libraries such as Pandas and NumPy in a Jupyter Notebook environment. Key data cleaning steps included handling missing values, standardizing text data, mapping admission type codes, calculating patient length of stay, and identifying high billing cases.
@@ -51,15 +51,15 @@ After preparing a clean and integrated dataset, exploratory data analysis (EDA) 
 
 The dashboards created include:
 
-🔍 **Overview Dashboard** : Patient Admissions Summary: Visualizing patient admission counts, age distribution, gender splits, and admission trends.
+🔍 **Overview Dashboard**: Patient Admissions Summary: Visualizing patient admission counts, age distribution, gender splits, and admission trends.
 
-🏥 **Medical Condition & Outcome Analysis** : Analyzing the frequency of medical conditions, treatment outcomes, and recovery rates.
+🏥 **Medical Condition & Outcome Analysis**: Analyzing the frequency of medical conditions, treatment outcomes, and recovery rates.
 
-💵 **Billing & Insurance Analysis** : Tracking billing amounts, insurance coverage patterns, and flagging high-cost cases.
+💵 **Billing & Insurance Analysis**: Tracking billing amounts, insurance coverage patterns, and flagging high-cost cases.
 
-🧑‍⚕️ **Doctor & Hospital Performance** : Evaluating doctor-wise and hospital-wise patient outcomes, admissions, and billing performance.
+🧑‍⚕️ **Doctor & Hospital Performance**: Evaluating doctor-wise and hospital-wise patient outcomes, admissions, and billing performance.
 
-📅 **Time-Based Analysis** : Examining trends over time including admissions, discharges, and length of stay patterns.
+📅 **Time-Based Analysis**: Examining trends over time, including admissions, discharges, and length of stay patterns.
 
 This project demonstrates how Python-based data engineering can seamlessly integrate with BI tools like Power BI to deliver healthcare insights that improve operational efficiency and patient care decisions.
 
@@ -70,7 +70,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 - ⚙️ Handles missing values (numeric → median, categorical → mode).
 
-- 📏 Calculates Length of Stay for each patient.
+- 📏 Calculates the Length of Stay for each patient.
 
 - 💸 Flags patients with High Billing Amounts.
 
@@ -127,7 +127,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 ## 📌 6. Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
 
 #### 1️⃣ Clone the repository
-git clone [https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
+git clone [https://github.com/parthgawande/HealthLens-Monitoring-healthcare-performance-and-trends](https://github.com/parthgawande/HealthLens-Monitoring-healthcare-performance-and-trends)
 
 cd Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 
@@ -135,7 +135,7 @@ cd Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 pip install -r Python/requirements.txt
 
 #### 3️⃣ Launch the Jupyter Notebook
-jupyter notebook Python/HealthCare_EDA.ipynb
+Jupyter Notebook Python/HealthCare_EDA.ipynb
 
 #### 4️⃣ Open the Power BI Dashboard manually:
 #### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
@@ -179,7 +179,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
   - 🧑‍⚕️ Doctor & Hospital Performance
 
- #### 4️⃣ Refresh the dataset if needed
+ #### 4️⃣ . Refresh the dataset if needed
 
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
@@ -189,7 +189,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 ### 8.1 Description of the Dataset <a name="81-description-of-the-dataset"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; The data in the healthcare dataset includes information about patients admitted to hospitals across different medical conditions. It contains 55500 rows and 17 columns, with data spanning several years, starting from 2019. The dataset includes details such as patient ID (P_ID), doctor ID (D_ID), hospital ID (H_ID), medical condition, date of admission, insurance provider, billing amount, room number, admission type, discharge date, medication prescribed, test results, patient name, age, gender, blood type, doctor name, and hospital name.
 
-Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma, Hypertension), billing amount (non-negative real numbers), room number (integer), admission type (Elective, Emergency, Urgent), and medication (Lipitor, Aspirin, Paracetamol). The age and blood type variables are numerical, while gender and insurance provider are categorical variables. The test results vary, with categories like Inconclusive, Abnormal, Normal and NaN values.
+Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma, Hypertension), billing amount (non-negative real numbers), room number (integer), admission type (Elective, Emergency, Urgent), and medication (Lipitor, Aspirin, Paracetamol). The age and blood type variables are numerical, while gender and insurance provider are categorical variables. The test results vary, with categories like Inconclusive, Abnormal, Normal, and NaN values.
 
 ![info](Images/Healthcare_Dataset_Info.png)
 
@@ -212,17 +212,17 @@ Identifying Mismatches and Foreign Key Issues Between P_ID, D_ID, and H_ID in Me
 ![Data_Integrity](Images/Data_Integrity.png)
 
 #### 8.2.4 Handling Missing Values <a name="824-handling-missing-values"></a>
-Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
+Identifying and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
 ![Missing_Values](Images/Missing_Values.png)
 
 #### 8.2.5 Handling Duplicate Records <a name="825-handling-duplicates"></a>
-Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
+Identifying and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
 ![Duplicate_Records](Images/Duplicate_Records.png)
 
 #### 8.2.6 Converting Data Types <a name="826-converting-datatypes"></a>
-Ensure all columns have correct data types for analysis.
+Ensure all columns have the correct data types for analysis.
 
 ![Converting_Datatypes](Images/Converting_Datatypes.png)
 
@@ -232,7 +232,7 @@ Creating useful new columns like Length of Stay or Billing Category.
 ![Derived_Columns](Images/Derived_Columns.png)
 
 #### 8.2.8 Mapping Categorical Values <a name="828-mapping-categorical-values"></a>
-Mapping or encode categorical values for better readability or later modeling.
+Mapping or encoding categorical values for better readability or later modeling.
 
 ![Mapping_Categorical_Values](Images/Mapping_Categorical_Values.png)
 
@@ -276,9 +276,9 @@ This dashboard provides a quick summary of hospital admissions, patient volumes,
 
 **📊 Visual Insights:**
 
- - KPI cards display total admissions, average stay, total billing, and avg. billing per patient.
+ - KPI cards display total admissions, average stay, total billing, and average billing per patient.
 
- - Bar chart shows admissions trend by year/month.
+ - Bar chart shows the admissions trend by year/month.
 
  - Donut chart compares Elective vs Emergency admissions.
 
@@ -318,7 +318,7 @@ This dashboard tracks hospital billing patterns, insurance provider contribution
 
  - Line chart shows billing trends over time.
 
- - Scatter chart visualizes how billing amounts relate to patient length of stay, color-coded by medical condition.
+ - A scatter chart visualizes how billing amounts relate to patient length of stay, color-coded by medical condition.
 
 **🎯 Result:**
 Easily monitor financial performance, identify top-paying insurers, and spot patterns between costs, patient stays, and conditions.
@@ -369,18 +369,7 @@ Understand how admissions fluctuate over time, identify peak periods, and drill 
 
 ![Patient_Details_Drillthorugh](Images/Patient_Details_Drilltrough.png)
 
-## 👨‍💻 11. Author <a name="11-author"></a>
 
-**Chandra Shekar Devarasetti**    
-Data Scientist | Data Science Enthusiast  
-
-- 📧 Email: [devarasettychnadrashekar@gmail.com](mailto:devarasettychnadrashekar@gmail.com)
-- 🌐 LinkedIn: [Chandra_LinkedIn](https://www.linkedin.com/in/chandra-shekar-devarasetti-8799b2222/)
-- 🌐 Portfolio: [Chandra_Portfolio](https://chandrashekardevarasetti.github.io/Chandra_Portfolio/)
-
-## 12. License <a name="12-license"></a>
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 
