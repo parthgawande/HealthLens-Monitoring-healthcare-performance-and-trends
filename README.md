@@ -94,17 +94,17 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ## 📌 5. Project Folder Structure <a name="5-project-folder-structure"></a>
 
-├── 📁 Data/ # Healthcare Excel dataset files
+├── 📁 Data/ 
 
 │ └── healthcare_dataset.xlsx
 
 │
 
-├── 📁 Images/ # Project images for README or dashboards
+├── 📁 Images/
 
 │
 
-├── 📁 Python/ # Python notebook, requirements, and scripts
+├── 📁 Python/
 
 │ ├── HealthCare_EDA.ipynb
 
@@ -112,17 +112,17 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 │
 
-├── 📁 PowerBI/ # Power BI dashboard files
+├── 📁 PowerBI/
 
 │ └── HealthCare_Dashboard.pbix
 
 │
 
-├── 📄 .gitignore # Git ignore rules
+├── 📄 .gitignore 
 
-├── 📄 LICENSE # Project open source license
+├── 📄 LICENSE 
 
-├── 📄 README.md # Project overview and documentation
+├── 📄 README.md 
 
 ## 📌 6. Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
 
